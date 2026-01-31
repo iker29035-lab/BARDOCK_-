@@ -1,0 +1,37 @@
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;es&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;UTF-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-
+scale=1.0&quot;&gt;
+&lt;title&gt;Estud-IA: Laboratorio 3D&lt;/title&gt;
+&lt;script type=&quot;module&quot;
+src=&quot;https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-
+viewer.min.js&quot;&gt;&lt;/script&gt;
+&lt;style&gt;
+body { margin: 0; background-color: #121212; display: flex;
+flex-direction: column; justify-content: center; align-items: center;
+height: 100vh; color: white; }
+model-viewer {
+width: 90%;
+height: 70vh;
+background: radial-gradient(#2c3e50, #000000);
+border-radius: 20px;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h3&gt;�� Laboratorio Virtual Estud-IA&lt;/h3&gt;
+&lt;model-viewer
+src=&quot;https://cdn.jsdelivr.net/gh/HafidJoss/MiVacteria/alien1.glb&quot;
+ar
+camera-controls
+auto-rotate
+loading=&quot;eager&quot;
+reveal=&quot;auto&quot;
+shadow-intensity=&quot;1&quot;&gt;
+
+&lt;/model-viewer&gt;
+&lt;p&gt;Si no ves nada, presiona F12 y revisa la pestaña &quot;Console&quot;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
